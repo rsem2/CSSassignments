@@ -1,0 +1,212 @@
+*{
+    /* outline: 2px dotted red; */
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+#wrapper{
+    background-color:#245076;
+    width: 770px;
+
+}
+
+#headerRight{
+    margin-left:225px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img{
+    width:300px;
+    display: inline-block
+}
+
+#size{
+    font-size: 10px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+#size a{
+    color:#c8ac28;
+    text-decoration:underline;
+}
+
+#size span{
+    color:black;
+}
+
+#searchButton{
+    background-color:#444444;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #272727;
+    border-radius: 10px;
+    width: 200px;
+}
+
+form{
+    text-align: center;
+}
+input[value="Search"]{
+    color:#bbbbbb;
+    width: 120px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color:#245076;
+    border-radius: 5px;
+    color:white;
+    height: 23px;
+}
+
+input{
+    box-shadow: 1px 1px #626262;
+    height: 17px;
+    font-size: 9px;
+}
+
+p{
+    color:white;
+    size: 8px;
+}
+
+#navigation{
+    color:white;
+    padding: 10px;
+    display: inline;
+}
+
+#navigation nav{
+    background-color:#447dac;
+    width: 630px;
+    margin: 10px 0px 10px 30px;
+    padding: 5px 0px 5px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #1f2327;
+    display: inline-block;
+}
+
+#navigation nav a{
+    margin-right:30px;
+}
+
+#leftBar{
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+    text-decoration: underline;
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+#leftBar ul{
+    list-style-image: url('li.png');
+}
+
+#leftBar li{
+    padding: 5px;
+    font-size:12px;
+
+}
+
+#rightBar{
+    text-align:center;
+    width: 500px;
+    margin: 10px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#rightBar p{
+    font-size: 9px;
+    margin: 5px
+}
+
+#rightBar .yellow{
+    margin:10px;
+    color: #c8ac28;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#rightBar #philosophy{
+    font-size: 12px;
+} 
+
+#secondSection{
+    background-color:white;
+    height:320px;
+}
+
+#leftColumn{
+    margin-left:50px;
+}
+.secondSection{
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    margin: 20px;
+    border-top: 3px solid #75a8d5;
+    text-align:center;
+    
+}
+
+.columnText{
+    width: 270px;
+}
+
+h2{
+    margin: 2px;
+    font-size:17px;
+}
+
+.secondSection p{
+    color: black;
+    font-size: 13px;
+}
+
+.secondSection li{
+    font-size: 13px;
+    list-style-type: square;
+    margin: 10px 0px;
+}
+
+.secondSection li p{
+    color: #447dac;
+    margin: 0px;
+}
+
+.secondSection ul{
+    margin: 10px -10px;
+}
+
+.secondSection span{
+    color: #447dac;
+}
+
+#footer{
+ background: linear-gradient(#265278,#3777ae);
+ color: #73a6d3;
+ height: 80px;
+}
+
+#footer nav{
+    text-align: center;
+    font-size: 17px;
+    margin-left: 30px;
+    padding-top:35px;
+}
+
+#footer a{
+    margin-left:10px;
+}
+
+#footer p{
+    color:#73a6d3;
+    text-align:center;
+    font-size: 8px;
+
+}
